@@ -1,0 +1,6 @@
+g++ -g -c remover.cpp
+g++ -g -c state.cpp
+g++ -g -o remover remover.o state.o
+All Correct!
+DONE
+rm *.o remover
